@@ -9,6 +9,9 @@
 
   .hero {
     max-width: 200px;
+    height: 430px;
+    border: none;
+    border-radius: 500px;
   }
 
   span {
@@ -21,6 +24,7 @@
 
       img {
         width: 30px;
+
       }
     }
   }

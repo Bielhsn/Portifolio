@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/Design uten navn.png';
+import heroImg from '../../assets/eu.jpg';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -36,28 +36,27 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Harris
+          Gabriel
           <br />
-          Johnsen
+          Henrique
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Full Stack Developer</h2>
         <span>
           <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/Bielhsn" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
+          <a href="https://www.linkedin.com/in/gabriel-henrique-2631931b2" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+        Full stack developer with solid market experience, specializing in building scalable, end-to-end solutions focused on user experience.
         </p>
         <a href={CV} download>
-          <button className="hover">Resume</button>
+          <button className="hover">CV</button>
         </a>
       </div>
     </section>
